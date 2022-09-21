@@ -53,7 +53,7 @@ namespace TemperatureConversion
             txtBox_celsius.Text = c.ToString();
 
             //Convert from fahrenheit to kelvin
-            float k = c - 273;
+            float k = c + 273;
             txtBox_kelvin.Text = k.ToString();
         }
 
